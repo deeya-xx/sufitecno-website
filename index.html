@@ -1,0 +1,1486 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sufi Techno Global Sdn Bhd | Innovative IT Solutions</title>
+
+    <!-- Primary Meta Tags -->
+<meta name="title" content="Sufi Techno Global Sdn Bhd - IT Solutions & Services">
+<meta name="description" content="Sufi Techno Global Sdn Bhd offers IT solutions and technology services for businesses.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sufitechno.com/">
+<meta property="og:title" content="Sufi Tecno Global Sdn. Bhd.">
+<meta property="og:description" content="Your One-Stop ICT & Office Solution Partner in Kuantan, Pahang.">
+<meta property="og:image" content="assets/images/logo/logo.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://sufitechno.com/">
+<meta property="twitter:title" content="Sufi Tecno Global Sdn. Bhd.">
+<meta property="twitter:description" content="Your One-Stop ICT & Office Solution Partner in Kuantan, Pahang.">
+<meta property="twitter:image" content="https://sufitechno.com/assets/images/logo/logo.png">
+    
+<!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="assets/images/logoclean.png"
+      type="image/png"
+    />
+
+    <!-- ===== All CSS files ===== -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+
+   <style>
+
+/* ===============================
+   GLOBAL STYLING
+================================ */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0f172a;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 120px 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+p {
+  color: rgba(255,255,255,0.75);
+  font-size: 16px;
+}
+
+/* ===============================
+   GLASS NAVBAR
+================================ */
+
+.ud-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item a {
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-item a:hover {
+  color: #00c2ff;
+}
+
+/* ===============================
+   HERO SECTION
+================================ */
+
+.ud-hero {
+  position: relative;
+  background: radial-gradient(circle at 20% 40%, #1e3a8a, #0f172a 60%);
+  padding: 200px 0 150px;
+  text-align: center;
+  color: #fff;
+}
+
+.ud-hero-title {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.ud-hero-desc {
+  font-size: 20px;
+  margin-top: 20px;
+  opacity: 0.85;
+}
+
+.ud-hero-buttons {
+  margin-top: 40px;
+}
+
+.ud-main-btn {
+  background: linear-gradient(90deg, #00c2ff, #0d6efd);
+  border: none;
+  padding: 14px 35px;
+  border-radius: 50px;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.ud-main-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,194,255,0.4);
+}
+
+/* Glow background */
+.ud-hero::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #00c2ff;
+  border-radius: 50%;
+  filter: blur(200px);
+  opacity: 0.2;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ===============================
+   FEATURES SECTION
+================================ */
+
+.ud-features {
+  background: #111827;
+}
+
+.ud-section-title span {
+  color: #00c2ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.ud-section-title h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.ud-single-feature {
+  background: #1e293b;
+  border: 1px solid rgba(255,255,255,0.05);
+  padding: 35px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  height: 100%;
+}
+
+.ud-single-feature:hover {
+  transform: translateY(-8px);
+  border: 1px solid #00c2ff;
+  box-shadow: 0 20px 40px rgba(0,194,255,0.2);
+}
+
+.ud-feature-icon {
+  font-size: 36px;
+  color: #00c2ff;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   ABOUT SECTION
+================================ */
+
+.ud-about {
+  background: #0f172a;
+}
+
+.tag {
+  color: #00c2ff;
+  font-weight: 600;
+}
+
+/* ===============================
+   FAQ SECTION
+================================ */
+
+.ud-faq {
+  background: #111827;
+}
+
+.ud-faq-btn {
+  background: #1e293b;
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 12px;
+  color: #fff;
+}
+
+.ud-faq-body {
+  background: #1e293b;
+  color: rgba(255,255,255,0.8);
+  padding: 15px;
+}
+
+/* ===============================
+   TEAM SECTION
+================================ */
+
+.ud-team {
+  background: #0f172a;
+}
+
+.ud-single-team {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.ud-single-team:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* ===============================
+   CONTACT SECTION
+================================ */
+
+.ud-contact {
+  background: #111827;
+}
+
+.ud-contact-form-wrapper {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.ud-contact-form input,
+.ud-contact-form textarea {
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.ud-contact-form input:focus,
+.ud-contact-form textarea:focus {
+  border-color: #00c2ff;
+  outline: none;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+
+.ud-footer {
+  background: #0f172a;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.ud-footer a {
+  color: rgba(255,255,255,0.7);
+}
+
+.ud-footer a:hover {
+  color: #00c2ff;
+}
+
+/* ===============================
+   SCROLLBAR
+================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00c2ff;
+  border-radius: 10px;
+}
+
+/* Fix light section text color */
+section[style*="#f8fafc"] {
+  color: #0f172a;
+}
+
+section[style*="#f8fafc"] h2,
+section[style*="#f8fafc"] h4,
+section[style*="#f8fafc"] p {
+  color: #0f172a;
+}
+
+/* ===== EXACT TEXT COLOR CHANGES REQUESTED ===== */
+
+/* Our Core Solutions → WHITE */
+#features .ud-section-title h2 {
+  color: #ffffff !important;
+}
+
+/* About paragraphs → BLACK */
+#about p {
+  color: #000000 !important;
+}
+
+/* FAQ description paragraph → BLACK */
+#faq .ud-section-title p {
+  color: #000000 !important;
+}
+
+/* Our Milestones → WHITE */
+#testimonials .ud-section-title h2 {
+  color: #ffffff !important;
+}
+
+/* Meet The Team → WHITE */
+#team .ud-section-title h2 {
+  color: #ffffff !important;
+}
+
+/* Muhamad Sufiyan Bin Mat Isa & Founder & CEO → WHITE */
+.ud-team-info h5,
+.ud-team-info h6 {
+  color: #ffffff !important;
+}
+
+/* CONTACT SECTION TEXT → WHITE */
+#contact span,
+#contact h2,
+#contact h5,
+#contact p {
+  color: #ffffff !important;
+}
+
+/* ===== HEADER TEXT TO WHITE ===== */
+
+/* Navbar links default */
+.ud-header .navbar-nav .nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* smooth transition */
+  position: relative;
+}
+
+/* Hover state */
+.ud-header .navbar-nav .nav-link:hover {
+  color: #38bdf8 !important; /* light tech blue */
+}
+
+/* Active link state (current section) */
+.ud-header .navbar-nav .nav-link.active {
+  color: #38bdf8 !important;
+}
+
+/* Optional: add subtle underline on hover/active */
+.ud-header .navbar-nav .nav-link::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #38bdf8;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.ud-header .navbar-nav .nav-link:hover::after,
+.ud-header .navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+/* FORCE HEADER TEXT WHITE ALWAYS */
+
+.ud-header .navbar-nav .nav-item a,
+.ud-header.sticky .navbar-nav .nav-item a {
+  color: #ffffff !important;
+}
+
+/* Hover */
+.ud-header .navbar-nav .nav-item a:hover,
+.ud-header.sticky .navbar-nav .nav-item a:hover {
+  color: #00c2ff !important;
+}
+
+/* Active link */
+.ud-header .navbar-nav .nav-item a.active,
+.ud-header.sticky .navbar-nav .nav-item a.active {
+  color: #00c2ff !important;
+}
+
+/* Smooth Scroll for all links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero Buttons hover */
+.ud-main-btn {
+  position: relative;
+  overflow: hidden;
+}
+.ud-main-btn::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: rgba(0, 194, 255, 0.2);
+  transition: 0.3s ease;
+  z-index: 0;
+}
+.ud-main-btn:hover::after {
+  height: 100%;
+}
+
+/* Feature Card hover scale */
+.ud-single-feature:hover {
+  transform: translateY(-10px) scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* FAQ rotating icon */
+.ud-faq-btn .icon i {
+  transition: transform 0.3s ease;
+}
+.ud-faq-btn.collapsed .icon i {
+  transform: rotate(0deg);
+}
+.ud-faq-btn:not(.collapsed) .icon i {
+  transform: rotate(180deg);
+}
+
+/* Active navbar link highlight */
+.navbar-nav .nav-item a.active {
+  border-bottom: 2px solid #38bdf8;
+  color: #38bdf8 !important;
+}
+
+/* Feature Titles → White */
+.ud-feature-title {
+  color: #ffffff !important;
+}
+
+</style>
+  </head>
+
+  
+  <body>
+    <!-- ====== Header Start ====== -->
+    <header class="ud-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo/logoclean.png" alt="Logo" />
+              </a>
+              <button class="navbar-toggler">
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+                <span class="toggler-icon"> </span>
+              </button>
+
+              <div class="navbar-collapse">
+                <ul id="nav" class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#home">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#about">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="ud-menu-scroll" href="#contact">Contact</a>
+                  </li>
+                  
+                       
+                </ul>
+              </div>
+
+              
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ====== Header End ====== -->
+
+    <!-- ====== Hero Start ====== -->
+    <section class="ud-hero" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
+              <h1 class="ud-hero-title">
+                Sufi Techno Global Sdn Bhd
+              </h1>
+              <p class="ud-hero-desc">
+                Your One-Stop ICT & Office Solution Partner
+              </p>
+              <ul class="ud-hero-buttons">
+                <li>
+                  <a href="#contact" class="ud-main-btn ud-white-btn">
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" class="ud-main-btn ud-link-btn">
+                    Learn More
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ud-hero-brands-wrapper wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <img src="assets/images/hero/brand.svg" alt="brand" />
+            </div>
+            <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
+              <img src="assets/images/hero/hero-image.svg" alt="hero-image" />
+              <img
+                src="assets/images/hero/dotted-shape.svg"
+                alt="shape"
+                class="shape shape-1"
+              />
+              <img
+                src="assets/images/hero/dotted-shape.svg"
+                alt="shape"
+                class="shape shape-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Hero End ====== -->
+
+    <!-- ====== Features Start ====== -->
+    <section id="features" class="ud-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title">
+              
+              <h2>Our Core Solutions</h2>
+              <p>
+                We deliver comprehensive ICT, smart office and infrastructure solutions 
+                designed to improve efficiency, security and performance for businesses 
+                in Kuantan and across Malaysia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
+              <div class="ud-feature-icon">
+                <i class="lni lni-gift"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">ICT Equipment & Solutions</h3>
+                <p class="ud-feature-desc">
+                 Computers, servers, printers, data storage and productivity software.
+                </p>
+                <a href="javascript:void(0)" class="ud-feature-link">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
+              <div class="ud-feature-icon">
+                <i class="lni lni-move"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Network & Infrastructure</h3>
+                <p class="ud-feature-desc">
+                 Structured cabling, network setup, firewall configuration, server deployment 
+                and complete IT infrastructure solutions.
+                </p>
+                <a href="javascript:void(0)" class="ud-feature-link">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
+              <div class="ud-feature-icon">
+                <i class="lni lni-layout"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Smart Office & Security Systems</h3>
+                <p class="ud-feature-desc">
+                  CCTV installation, access control systems, smart office automation 
+                  and integrated security monitoring solutions.
+                </p>
+                <a href="javascript:void(0)" class="ud-feature-link">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
+              <div class="ud-feature-icon">
+                <i class="lni lni-layers"></i>
+              </div>
+              <div class="ud-feature-content">
+                <h3 class="ud-feature-title">Maintenance & IT Support</h3>
+                <p class="ud-feature-desc">
+                  On-site and remote technical support, system maintenance, troubleshooting 
+                  and long-term IT support services.
+                </p>
+                <a href="javascript:void(0)" class="ud-feature-link">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Features End ====== -->
+
+    <!-- ====== About Start ====== -->
+    <section id="about" class="ud-about">
+      <div class="container">
+        <div class="ud-about-wrapper wow fadeInUp" data-wow-delay=".2s">
+          <div class="ud-about-content-wrapper">
+            <div class="ud-about-content">
+              <span class="tag">About Us</span>
+              <h2>About Sufi Tecno Global Sdn. Bhd.</h2>
+              <p>
+                Sufi Tecno Global Sdn. Bhd. is an ICT and smart office solutions provider 
+                based in Kuantan, Pahang. We specialize in delivering reliable, scalable 
+                and cost-effective technology solutions tailored to modern business needs.
+              </p>
+
+              <p>
+                Our expertise covers ICT equipment supply, infrastructure deployment, 
+                network configuration, security systems and ongoing IT support. 
+                We are committed to helping organizations enhance productivity, 
+                security and operational efficiency.
+              </p>
+              <a href="#contact" class="ud-main-btn ud-white-btn">
+                    Contact Us
+                  </a>
+            </div>
+          </div>
+          <div class="ud-about-image">
+            <img src="assets/images/about/about-image.svg" alt="about-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== About End ====== -->
+
+    <section style="padding:100px 0; background:#f8fafc;">
+  <div class="container text-center">
+    <h2 style="font-weight:700;">Why Choose Sufi Techno?</h2>
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <h4>✔ Certified Professionals</h4>
+        <p>Experienced ICT engineers with proven expertise.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>✔ Fast Response</h4>
+        <p>Quick technical support and troubleshooting.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>✔ End-to-End Solutions</h4>
+        <p>From supply to deployment and maintenance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    
+
+    <!-- ====== FAQ Start ====== -->
+    <section id="faq" class="ud-faq bg-light">
+      <div class="shape">
+        <img src="assets/images/faq/shape.svg" alt="shape" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title text-center mx-auto">
+              <span>FAQ</span>
+              <h2>How Can We Help You?</h2>
+              <p>
+                Find answers to common questions about our ICT solutions, office systems, 
+                security services, and technology support.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>What services does SUFI TECNO GLOBAL SDN. BHD. provide?</span>
+                </button>
+                <div id="collapseOne" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    We provide complete ICT and office solutions including IT equipment supply, 
+                    networking infrastructure, cybersecurity systems, office security solutions, 
+                    automation systems, and ongoing technical support services.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Do you provide customized solutions for businesses?</span>
+                </button>
+                <div id="collapseTwo" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Yes. We assess your business requirements and design customized ICT, networking, 
+                    and security solutions to match your operational needs, budget, and future growth plans.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Do you offer installation and after-sales support?</span>
+                </button>
+                <div id="collapseThree" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    Absolutely. Our certified technical team handles installation, system configuration, 
+                    maintenance, and reliable after-sales support to ensure smooth and secure operations.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".1s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Which industries do you serve?</span>
+                </button>
+                <div id="collapseFour" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    We serve SMEs, government agencies, educational institutions, retail businesses, 
+                    and corporate offices across various industries requiring integrated ICT solutions.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".15s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>Are your solutions compliant with security standards?</span>
+                </button>
+                <div id="collapseFive" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                   Yes. We prioritize cybersecurity, data protection, and industry compliance standards. 
+                  Our solutions are designed to align with best practices in information security.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-single-faq wow fadeInUp" data-wow-delay=".2s">
+              <div class="accordion">
+                <button
+                  class="ud-faq-btn collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                >
+                  <span class="icon flex-shrink-0">
+                    <i class="lni lni-chevron-down"></i>
+                  </span>
+                  <span>How can we request a quotation or consultation?</span>
+                </button>
+                <div id="collapseSix" class="accordion-collapse collapse">
+                  <div class="ud-faq-body">
+                    You may contact us via phone, email, or the contact form on our website. 
+                    Our team will respond promptly to arrange a consultation and provide a detailed quotation.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== FAQ End ====== -->
+
+    <!-- ====== Testimonials Start ====== -->
+    <section id="testimonials" class="ud-testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title mx-auto text-center">
+              <span>Achievements</span>
+              <h2>Our Milestones</h2>
+              <p>
+                Successfully delivered ICT infrastructure and office technology 
+                solutions to businesses and organizations in Kuantan and surrounding regions.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="ud-single-testimonial wow fadeInUp"
+              data-wow-delay=".1s"
+            >
+              
+              <div class="ud-testimonial-content">
+                <p>
+                Established strategic partnerships with leading technology suppliers 
+                to ensure high-quality and reliable ICT products for clients.
+                </p>
+
+              </div>
+              <div class="ud-testimonial-info">
+                <div class="ud-testimonial-image">
+                  <img
+                    src="assets/images/testimonials/author-01.png"
+                    alt="author"
+                  />
+                </div>
+                <div class="ud-testimonial-meta">
+                   <h4>Technology Partnerships</h4>
+                <p>Trusted Vendors & Suppliers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="ud-single-testimonial wow fadeInUp"
+              data-wow-delay=".15s"
+            >
+              
+              <div class="ud-testimonial-content">
+                <p>
+                Built a dedicated technical team capable of handling enterprise-level 
+                network, security and smart office deployments.
+                </p>
+              </div>
+              <div class="ud-testimonial-info">
+                <div class="ud-testimonial-image">
+                  <img
+                    src="assets/images/testimonials/author-02.png"
+                    alt="author"
+                  />
+                </div>
+                <div class="ud-testimonial-meta">
+                  <h4>Professional Team</h4>
+                  <p>Certified & Experienced Personnel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div
+              class="ud-single-testimonial wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              
+              <div class="ud-testimonial-content">
+                <p>
+                Successfully delivered end-to-end networking and smart office 
+                security projects for SMEs and corporate clients across Pahang.
+                </p>
+              </div>
+              <div class="ud-testimonial-info">
+                <div class="ud-testimonial-image">
+                  <img
+                    src="assets/images/testimonials/author-03.png"
+                    alt="author"
+                  />
+                </div>
+                <div class="ud-testimonial-meta">
+                  <h4>End-to-End Projects</h4>
+                  <p>Networking & Security Solutions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Testimonials End ====== -->
+
+    <!-- ====== Team Start ====== -->
+    <section id="team" class="ud-team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="ud-section-title mx-auto text-center">
+              <span>Our Team</span>
+              <h2>Meet The Team</h2>
+              <p>
+              Our leadership and technical team are committed to delivering 
+              professional, reliable and innovative ICT solutions to every client.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-team wow fadeInUp" data-wow-delay=".1s">
+              <div class="ud-team-image-wrapper">
+                <div class="ud-team-image">
+                  <img src="assets/images/team/team-01.png" alt="team" />
+                </div>
+
+                <img
+                  src="assets/images/team/dotted-shape.svg"
+                  alt="shape"
+                  class="shape shape-1"
+                />
+                <img
+                  src="assets/images/team/shape-2.svg"
+                  alt="shape"
+                  class="shape shape-2"
+                />
+              </div>
+              <div class="ud-team-info">
+                <h5>Muhamad Sufiyan Bin Mat Isa</h5>
+                <h6>Founder & CEO</h6>
+              </div>
+              <ul class="ud-team-socials">
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-facebook-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-team wow fadeInUp" data-wow-delay=".15s">
+              <div class="ud-team-image-wrapper">
+                <div class="ud-team-image">
+                  <img src="assets/images/team/team-02.png" alt="team" />
+                </div>
+
+                <img
+                  src="assets/images/team/dotted-shape.svg"
+                  alt="shape"
+                  class="shape shape-1"
+                />
+                <img
+                  src="assets/images/team/shape-2.svg"
+                  alt="shape"
+                  class="shape shape-2"
+                />
+              </div>
+              <div class="ud-team-info">
+                <h5>Thashini Rajarathnam</h5>
+                <h6>Operations & Client Services</h6>
+              </div>
+              <ul class="ud-team-socials">
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-facebook-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-team wow fadeInUp" data-wow-delay=".2s">
+              <div class="ud-team-image-wrapper">
+                <div class="ud-team-image">
+                  <img src="assets/images/team/team-03.png" alt="team" />
+                </div>
+
+                <img
+                  src="assets/images/team/dotted-shape.svg"
+                  alt="shape"
+                  class="shape shape-1"
+                />
+                <img
+                  src="assets/images/team/shape-2.svg"
+                  alt="shape"
+                  class="shape shape-2"
+                />
+              </div>
+              <div class="ud-team-info">
+                <h5>Nurul Fatin Aqila Binti Ismail</h5>
+                <h6>Operations & Client Services</h6>
+              </div>
+              <ul class="ud-team-socials">
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-facebook-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-sm-6">
+            <div class="ud-single-team wow fadeInUp" data-wow-delay=".25s">
+              <div class="ud-team-image-wrapper">
+                <div class="ud-team-image">
+                  <img src="assets/images/team/team-04.png" alt="team" />
+                </div>
+
+                <img
+                  src="assets/images/team/dotted-shape.svg"
+                  alt="shape"
+                  class="shape shape-1"
+                />
+                <img
+                  src="assets/images/team/shape-2.svg"
+                  alt="shape"
+                  class="shape shape-2"
+                />
+              </div>
+              <div class="ud-team-info">
+                <h5>Mohamad Syahrul Arif Bin Azmi</h5>
+                <h6>Project & Infrastructure</h6>
+              </div>
+              <ul class="ud-team-socials">
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-facebook-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-twitter-filled"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/MusharofChy">
+                    <i class="lni lni-instagram-filled"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Team End ====== -->
+
+    <!-- ====== Contact Start ====== -->
+    <section id="contact" class="ud-contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-8 col-lg-7">
+            <div class="ud-contact-content-wrapper">
+              <div class="ud-contact-title">
+                <span>CONTACT US</span>
+                <h2>
+                  Let’s Discuss Your ICT & Office Solution Needs
+                </h2>
+              </div>
+              <div class="ud-contact-info-wrapper">
+                <div class="ud-single-info">
+                  <div class="ud-info-icon">
+                    <i class="lni lni-map-marker"></i>
+                  </div>
+                  <div class="ud-info-meta">
+                    <h5>Our Location</h5>
+                    <p>LOT 1-60 Tingkat 1 Kompleks Teruntum, Jalan Mahkota, 25200 Kuantan, Pahang</p>
+                  </div>
+                </div>
+                <div class="ud-single-info">
+                  <div class="ud-info-icon">
+                    <i class="lni lni-envelope"></i>
+                  </div>
+                  <div class="ud-info-meta">
+                    <h5>How Can We Help?</h5>
+                    <p>admin@sufitechno.com</p>
+      
+                  </div>
+                </div>
+                <div class="ud-single-info">
+                <div class="ud-info-icon">
+                  <i class="lni lni-phone"></i>
+                </div>
+                <div class="ud-info-meta">
+                  <h5>Call Us</h5>
+                  <p>+60 18-903 9321</p>
+                </div>
+              </div>
+              <div style="margin-top:30px;">
+              <iframe 
+                src="https://maps.google.com/maps?q=Kompleks%20Teruntum%20Kuantan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+              </iframe>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div
+              class="ud-contact-form-wrapper wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <h3 class="ud-contact-form-title">Send us a Message</h3>
+              <form class="ud-contact-form" action="mailto:admin@sufitechno.com" method="post" enctype="text/plain">
+                <div class="ud-form-group">
+                  <label for="fullName">Full Name*</label>
+                  <input
+                    type="text"
+                    name="fullName"
+                    placeholder="Adam Gelius"
+                  />
+                </div>
+                <div class="ud-form-group">
+                  <label for="email">Email*</label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="example@yourmail.com"
+                  />
+                </div>
+                <div class="ud-form-group">
+                  <label for="phone">Phone*</label>
+                  <input
+                    type="text"
+                    name="phone"
+                    placeholder="+885 1254 5211 552"
+                  />
+                </div>
+                <div class="ud-form-group">
+                  <label for="message">Message*</label>
+                  <textarea
+                    name="message"
+                    rows="1"
+                    placeholder="type your message here"
+                  ></textarea>
+                </div>
+                <div class="ud-form-group mb-0">
+                  <button type="submit" class="ud-main-btn">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Contact End ====== -->
+
+    <!-- ====== Footer Start ====== -->
+    <footer class="ud-footer wow fadeInUp" data-wow-delay=".15s">
+      <div class="shape shape-1">
+        <img src="assets/images/footer/shape-1.svg" alt="shape" />
+      </div>
+      <div class="shape shape-2">
+        <img src="assets/images/footer/shape-2.svg" alt="shape" />
+      </div>
+      <div class="shape shape-3">
+        <img src="assets/images/footer/shape-3.svg" alt="shape" />
+      </div>
+      <div class="ud-footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="ud-widget">
+                <a href="index.html" class="ud-footer-logo">
+                  <img src="assets/images/logo/logo.png" alt="logo" />
+                </a>
+                <p class="ud-widget-desc">
+                  Your trusted ICT & smart office solutions partner in Malaysia.
+                </p>
+                <ul class="ud-widget-socials">
+                  <li>
+                    <a href="#">
+                      <i class="lni lni-facebook-filled"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="lni lni-twitter-filled"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="lni lni-instagram-filled"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="lni lni-linkedin-original"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+              <div class="ud-widget">
+                <h5 class="ud-widget-title">About Us</h5>
+                <ul class="ud-widget-links">
+                  <li>
+                    <a href="javascript:void(0)">Home</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Solutions</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">About</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Milestones</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+              <div class="ud-widget">
+                <h5 class="ud-widget-title">Features</h5>
+                <ul class="ud-widget-links">
+                  <li>
+                    <a href="javascript:void(0)">How it works</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Privacy policy</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Terms of service</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)">Refund policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6">
+              <div class="ud-widget">
+                <h5 class="ud-widget-title">Core Services</h5>
+                <ul class="ud-widget-links">
+                  <li><a href="#features">ICT Equipment</a></li>
+                  <li><a href="#features">Networking Solutions</a></li>
+                  <li><a href="#features">Security Systems</a></li>
+                  <li><a href="#features">IT Maintenance</a></li>
+                </ul>
+                 
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-8 col-sm-10">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ud-footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="ud-footer-bottom-left">
+                <li>
+                  <a href="javascript:void(0)">Privacy policy</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Support policy</a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">Terms of service</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <p class="ud-footer-bottom-right">
+                © 2026 Sufi Tecno Global Sdn. Bhd. All Rights Reserved.
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ====== Footer End ====== -->
+
+    <!-- ====== Back To Top Start ====== -->
+    <a href="javascript:void(0)" class="back-to-top">
+      <i class="lni lni-chevron-up"> </i>
+    </a>
+    <!-- ====== Back To Top End ====== -->
+
+    <!-- ====== All Javascript Files ====== -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll(".ud-menu-scroll");
+
+      pageLink.forEach((elem) => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
+        });
+      });
+
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll(".ud-menu-scroll");
+        const scrollPos =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop;
+
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute("href");
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (
+            refElement.offsetTop <= scrollTopMinus &&
+            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+          ) {
+            document
+              .querySelector(".ud-menu-scroll")
+              .classList.remove("active");
+            currLink.classList.add("active");
+          } else {
+            currLink.classList.remove("active");
+          }
+        }
+      }
+
+      window.document.addEventListener("scroll", onScroll);
+
+     
+// ===== Navbar Active on Scroll =====
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.navbar-nav .nav-item a');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 100;
+    const sectionHeight = section.offsetHeight;
+    if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href').includes(current)) {
+      link.classList.add('active');
+    }
+  });
+});
+
+// ===== Smooth Scroll for internal links (optional if not using CSS scroll-behavior) =====
+document.querySelectorAll('.ud-menu-scroll').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+
+// ===== WOW.js initialization if using wow animations =====
+if (typeof WOW === 'function') {
+  new WOW().init();
+}
+
+    </script>
+
+  </body>
+</html>
